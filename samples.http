@@ -1,0 +1,9 @@
+
+###
+GET http://localhost:8080/log
+
+###
+GET http://localhost:8080/ann
+
+###
+GET http://localhost:8080/beh

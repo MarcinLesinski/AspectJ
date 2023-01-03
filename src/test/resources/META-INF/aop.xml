@@ -1,0 +1,16 @@
+<aspectj>
+
+    <aspects>
+        <aspect name="com.example.demo.logging.LoggingAspect"/>
+        <aspect name="com.example.demo.behaviour.BehaviourAspect"/>
+        <aspect name="com.example.demo.annotation.AnnotationAspect"/>
+    </aspects>
+
+    <weaver options="-verbose -showWeaveInfo">
+        <include within="com.example.demo.logging.*"/>
+        <include within="com.example.demo.behaviour.*"/>
+        <include within="com.example.demo.annotation.*"/>
+    </weaver>
+
+</aspectj>
+
